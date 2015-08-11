@@ -1,0 +1,286 @@
+body {
+  overflow: hidden;
+}
+body .container .header {
+  padding: 10px 0 20px 0px;
+}
+body .container .header .wrapper .row {
+  margin: 0 0 0 0;
+}
+body .container .header .wrapper .row .col-md-3 {
+  float: left;
+  padding: 0 10px;
+  width: 24%;
+  text-align: center;
+}
+body .container .header .wrapper .row .col-md-3 h1 {
+  cursor: pointer;
+  font-size: 25px;
+  font-family: cursive;
+  color: gray;
+}
+body .container .header .wrapper .row .col-md-3:nth-child(3) {
+  padding: 0px 0px 0px 35px;
+}
+body .container .header .wrapper .row .col-md-3:nth-child(2) {
+  width: 27%;
+}
+body .container .middle {
+  position: relative;
+  padding: 0px 0px 50px 0px;
+}
+body .container .middle .forth-page {
+  position: relative;
+  width: 0px;
+  height: 0px;
+  left: -180px;
+}
+body .container .middle .forth-page .back h1 {
+  position: absolute;
+  z-index: 100;
+  left: -4250px;
+  color: black;
+  font-size: 20px;
+  font-family: fantasy;
+}
+body .container .middle .forth-page .back img {
+  position: absolute;
+  left: -4290px;
+  width: 1440px;
+  height: 718px;
+  z-index: -100;
+}
+body .container .middle .forth-page .flipbook {
+  position: absolute;
+  margin-left: 145px;
+  top: 20px;
+  left: -4000px;
+  width: 850px;
+  height: 500px;
+  box-shadow: 5px 5px 5px -5px #333;
+}
+body .container .middle .forth-page .flipbook img {
+  width: 425px;
+  height: 300px;
+}
+body .container .middle .forth-page .flipbook .hard-cover h1 {
+  text-align: center;
+  font-family: cursive;
+}
+body .container .middle .forth-page .flipbook .hard {
+  background-color: white;
+  text-align: center;
+}
+body .container .middle .forth-page .flipbook .hard img {
+  width: 425px;
+  height: 300px;
+}
+body .container .middle .forth-page .flipbook .hard h1 {
+  font-family: cursive;
+  text-align: left;
+  font-weight: 400;
+}
+body .container .middle .forth-page .flipbook .hard p {
+  text-align: left;
+  font-family: fantasy;
+}
+body .container .middle .forth-page .flipbook .page-1 {
+  background-color: white;
+}
+body .container .middle .forth-page .flipbook .page-2 {
+  background-color: white;
+  font-family: cursive;
+  font-family: fantasy;
+  text-align: left;
+}
+body .container .middle .forth-page .flipbook .page-3 {
+  background-color: white;
+}
+body .container .middle .forth-page .flipbook .page-4 {
+  background-color: white;
+  font-family: cursive;
+  font-family: fantasy;
+  text-align: left;
+}
+body .container .middle .forth-page .flipbook .end {
+  background-color: white;
+}
+body .container .middle .third-page {
+  position: relative;
+  left: -20px;
+}
+body .container .middle .third-page .pic-box {
+  position: absolute;
+  left: -2030px;
+}
+body .container .middle .third-page .pic-box h1 {
+  position: absolute;
+  z-index: 100;
+  left: -900px;
+  top: 20px;
+  color: black;
+  font-size: 20px;
+  font-family: fantasy;
+}
+body .container .middle .third-page .pic-box .frame img {
+  z-index: 5;
+  position: absolute;
+  left: -732px;
+  top: 211px;
+  width: 180px;
+  height: 280px;
+}
+body .container .middle .third-page .pic-box .frame-2 img {
+  z-index: 5;
+  position: absolute;
+  left: -500px;
+  top: 180px;
+  width: 285px;
+  height: 390px;
+}
+body .container .middle .third-page .pic-box .frame-3 img {
+  z-index: 5;
+  position: absolute;
+  left: 237px;
+  top: 210px;
+  width: 210px;
+  height: 285px;
+}
+body .container .middle .third-page .pic-box .museum {
+  position: relative;
+  left: -980px;
+}
+body .container .middle .third-page .pic-box .museum img {
+  width: 1440px;
+  height: 718px;
+}
+body .container .middle .third-page .pic-box .scratch {
+  position: absolute;
+  left: -720px;
+  top: 225px;
+  z-index: 6;
+  width: 160px;
+  height: 250px;
+}
+body .container .middle .third-page .pic-box .scratch img {
+  width: 160px;
+  height: 250px;
+  position: absolute;
+}
+body .container .middle .third-page .pic-box .scratch-2 {
+  position: absolute;
+  z-index: 6;
+  left: -481px;
+  top: 205px;
+  width: 250px;
+  height: 336px;
+}
+body .container .middle .third-page .pic-box .scratch-2 img {
+  width: 250px;
+  height: 335px;
+  position: absolute;
+}
+body .container .middle .third-page .pic-box .scratch-3 {
+  position: absolute;
+  z-index: 6;
+  left: 252px;
+  top: 230px;
+  width: 180px;
+  height: 245px;
+}
+body .container .middle .third-page .pic-box .scratch-3 img {
+  width: 180px;
+  height: 245px;
+  position: absolute;
+}
+body .container .middle .second-page {
+  position: relative;
+  left: -270px;
+}
+body .container .middle .second-page .theater {
+  position: absolute;
+  left: -1320px;
+}
+body .container .middle .second-page .theater img {
+  position: absolute;
+  z-index: -1000;
+  width: 1440px;
+  height: 718px;
+}
+body .container .middle .second-page .slide {
+  position: absolute;
+}
+body .container .middle .second-page .slide img {
+  position: absolute;
+  left: -1320px;
+  z-index: -500;
+  width: 1440px;
+  height: 425px;
+}
+body .container .middle .second-page .slide video {
+  display: none;
+  position: absolute;
+  z-index: -500;
+  left: -1083px;
+  width: 960px;
+  height: 433px;
+}
+body .container .middle .second-page .slide .slide-1 {
+  position: absolute;
+  display: none;
+  z-index: 2;
+  width: 960px;
+  height: 433px;
+  left: -1083px;
+  color: white;
+  font-size: 25px;
+  font-family: serif;
+  font-weight: 650;
+  background-image: url("../../image/old-film.gif");
+}
+body .container .middle .second-page .slide .slide-1 .show {
+  display: block;
+}
+body .container .middle .second-page .slide .typed-cursor {
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+body .container .middle .cross-walk {
+  position: relative;
+}
+body .container .middle .cross-walk img {
+  position: absolute;
+  left: -150px;
+  z-index: -100;
+  width: 1440px;
+  height: 718px;
+}
+body .container .middle .evolution {
+  margin-top: 370px;
+  padding: 0 0 0 190px;
+}
+body .container .middle .evolution img {
+  width: 750px;
+  height: 200px;
+}
+body .container .middle .evolution ul {
+  margin-left: -30px;
+  margin-bottom: 10px;
+}
+body .container .middle .evolution ul li {
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  font-family: fantasy;
+  padding-right: 20px;
+}
+body .container .middle .evolution ul li:nth-child(3) {
+  padding-left: 30px;
+  padding-right: 15px;
+}
+body .container .middle .evolution ul li:nth-child(4) {
+  padding-left: 20px;
+  padding-right: 15px;
+}
