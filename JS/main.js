@@ -12,7 +12,7 @@ $(document).ready(function(){
 		setTimeout(function(){
 			$(".slide-1").show();
     	$(".slide-1").typed({
-    		strings: ["<em>Hello,My name is Che An Yu, I am graduated from national Don Hwa university,Even thought I am a beginner in coding,But I got a lot passion in it,And I think I am a fast learner,Cause since May after I quited my job,I started to learing code by myself,And I am really like it,I got a lot of joy and sucessful feeling from it,Thank you for spending times to watchig this.</em>"],
+    		strings: ["<em>Hello,My name is Che An Yu,I am optimistic and also a fast-learner.I am graduated from national Don Hwa university,my major is sport and leisure,because of the major,so I get into the habit of keeping the excercise.from doing the excercise I can get ride of the pressure.Even thought I just has four months experience in coding,but I really enjoy in it,and get a lot of joyful and sucessful feeling from it,at first I only can did some scratch text, until now I can did some interactive web bymyself,which is really meaningful to me.and I can sure I will do my best to fit the position which company give to me.Thank you for spending time watching this.</em>"],
       	typeSpeed: 1
   		})      
 		},7000)
